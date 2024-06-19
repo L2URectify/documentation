@@ -25,7 +25,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "https://discord.gg/FE4U4ScrKe"
+      "url": "https://discord.gg/rectify-1043591202441789491"
     }
   ],
   "topbarCtaButton": {
@@ -67,7 +67,8 @@
         "api-reference/endpoint/userperms",
         "api-reference/endpoint/getguild",
         "api-reference/endpoint/getgroup",
-        "api-reference/endpoint/checkapikey"
+        "api-reference/endpoint/checkapikey",
+        "api-reference/endpoint/accounts"
       ]
     }
   ],
