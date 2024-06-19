@@ -7,7 +7,7 @@ authMethod: "none"
 
 ### Body
 
-This request does not use a body, it uses params in the url, replace 1 guild id (Right click the discord server and click Copy ID, you need Developer mode on).
+This request does not use a body, it uses params in the url, replace [:guildid] guild id (Right click the discord server and click Copy ID, you need Developer mode on).
 
 ### Response
 
@@ -40,7 +40,7 @@ Data object containing the user's information.
 <RequestExample>
 
 ```bash Example Request
-curl --location --request GET 'https://api.rectify.international/v1/getgroup/1' \
+curl --location --request GET 'https://api.rectify.international/v1/getgroup/:guildid' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 ```
 

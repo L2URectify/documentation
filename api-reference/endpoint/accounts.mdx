@@ -7,7 +7,7 @@ authMethod: "none"
 
 ### Body
 
-This request does not use a body, it uses params in the url, replace 1  with the user's roblox id.
+This request does not use a body, it uses params in the url, replace [:discordid] with the user's discord id.
 
 ### Response
 
@@ -38,7 +38,7 @@ Data object containing the user's information.
 <RequestExample>
 
 ```bash Example Request
-curl --location --request GET 'http://api.rectify.international/v1/user/accounts/12345" \
+curl --location --request GET 'http://api.rectify.international/v1/user/accounts/:discordid" \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 ```
 
