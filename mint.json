@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Rectify: API",
+  "name": "Rectify API",
   "logo": {
     "dark": "/favicon.png",
     "light": "/favicon.png"
