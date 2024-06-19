@@ -62,9 +62,9 @@
     {
       "group": "Endpoint Examples",
       "pages": [
+        "api-reference/endpoint/userperms",
         "api-reference/endpoint/getdiscord",
         "api-reference/endpoint/getroblox",
-        "api-reference/endpoint/userperms",
         "api-reference/endpoint/getguild",
         "api-reference/endpoint/getgroup",
         "api-reference/endpoint/checkapikey",
