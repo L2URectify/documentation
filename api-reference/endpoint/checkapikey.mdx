@@ -1,7 +1,7 @@
 ---
 title: "Check API Key"
 api: "GET http://api.rectify.international/v1/authentication/checkapikey"
-description: "This endpoint checks if the apiKey provided is valid."
+description: "This endpoint checks if the apikey provided is valid."
 authMethod: "none"
 ---
 
@@ -9,8 +9,8 @@ authMethod: "none"
 
 There is infact a body of this request.
 
-<ParamField body="apiKey" type="string" default="123abc" required>
-  The apiKey of the desired request, you must fetch an apiKey in the discord before you can do any requests in this endpoint.
+<ParamField body="apikey" type="string" default="123abc" required>
+  The apikey of the desired request, you must fetch an apiKey in the discord before you can do any requests in this endpoint.
 </ParamField>
 
 ### Response
@@ -48,7 +48,6 @@ curl --location --request GET 'https://api.rectify.international/v1/authenticati
   "apiKey": "123abc",
 }'
 ```
-
 </RequestExample>
 
 <ResponseExample>
@@ -64,3 +63,4 @@ curl --location --request GET 'https://api.rectify.international/v1/authenticati
 }
 ```
 </ResponseExample>
+
