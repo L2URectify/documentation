@@ -73,7 +73,7 @@
     {
         "group": "[POST] Endpoint(s)",
         "pages": [
-          "api-reference/endpoint/userperms",
+          "api-reference/endpoint/userperms"
         ]
       }
   ],
