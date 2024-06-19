@@ -60,20 +60,20 @@
       ]
     },
     {
-      "group": "[GET] Endpoint(S)",
-      "pages": [
-        "api-reference/endpoint/getdiscord",
-        "api-reference/endpoint/getroblox",
-        "api-reference/endpoint/getguild",
-        "api-reference/endpoint/getgroup",
-        "api-reference/endpoint/checkapikey",
-        "api-reference/endpoint/accounts"
-      ]
-    },
-    {
-        "group": "[POST] Endpoint(s)",
+        "group": "POST Endpoint(s)",
         "pages": [
           "api-reference/endpoint/userperms"
+        ]
+      },
+      {
+        "group": "GET Endpoint(S)",
+        "pages": [
+          "api-reference/endpoint/getdiscord",
+          "api-reference/endpoint/getroblox",
+          "api-reference/endpoint/getguild",
+          "api-reference/endpoint/getgroup",
+          "api-reference/endpoint/checkapikey",
+          "api-reference/endpoint/accounts"
         ]
       }
   ],
