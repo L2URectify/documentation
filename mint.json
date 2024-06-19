@@ -60,9 +60,8 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "[GET] Endpoint(S)",
       "pages": [
-        "api-reference/endpoint/userperms",
         "api-reference/endpoint/getdiscord",
         "api-reference/endpoint/getroblox",
         "api-reference/endpoint/getguild",
@@ -70,7 +69,13 @@
         "api-reference/endpoint/checkapikey",
         "api-reference/endpoint/accounts"
       ]
-    }
+    },
+    {
+        "group": "[POST] Endpoint(s)",
+        "pages": [
+          "api-reference/endpoint/userperms",
+        ]
+      }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/LearnToLua",
